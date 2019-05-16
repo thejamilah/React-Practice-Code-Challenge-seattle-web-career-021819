@@ -1,19 +1,16 @@
 import React, { Fragment } from 'react'
 import MoreButton from '../components/MoreButton'
 
-const SushiContainer = (props) => {
-  return (
-    <Fragment>
-      <div className="belt">
-        {
-          /* 
-             Render Sushi components here!
-          */
-        }
-        <MoreButton />
-      </div>
-    </Fragment>
-  )
+class SushiContainer extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      startIndex: 0
+    }
+  }
+
+
+
 }
 
 export default SushiContainer
